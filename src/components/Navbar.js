@@ -5,11 +5,11 @@ class Navbar extends React.Component {
             <nav>
                 <h1>Context App</h1>
                 <ul>
-                    <li>Home</li>
+                    <li>Home test</li>
                     <li>About</li>
                     <li>Country</li>
                 </ul>
-            </nav>
+            </nav> 
         );
     }
 }
