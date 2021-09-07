@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import { ThemeContext } from '../contexts/ThemeContext';
 
 class Navbar extends Component {
@@ -22,21 +21,6 @@ class Navbar extends Component {
       }}</ThemeContext.Consumer>
     );
   }
-=======
-class Navbar extends React.Component {
-    render() { 
-        return(
-            <nav>
-                <h1>Context App</h1>
-                <ul>
-                    <li>Home test</li>
-                    <li>About</li>
-                    <li>Country</li>
-                </ul>
-            </nav> 
-        );
-    }
->>>>>>> 1eddf891876e7cd5385a485233eb0b42049c6409
 }
  
 export default Navbar;
